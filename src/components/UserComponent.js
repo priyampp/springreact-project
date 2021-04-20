@@ -21,13 +21,14 @@ class UserComponent extends React.Component {
             <div>
                 <h2 className = "text-center"> Employee Details</h2>
             
-        <table className = "table table-striped">
+        <table className = "table table-striped table-bordered">
                     <thead>
                         <tr>
-
-                            <td> Employee Id</td>
-                            <td>  Name</td>
-                            <td> Department</td>
+                            
+                            <td><h6> Employee Id</h6></td>
+                            <td> <h6>Name</h6></td>
+                            <td> <h6>Department</h6></td>
+                            <td><h6> Email</h6></td>
                         </tr>
 
                     </thead>
@@ -38,7 +39,8 @@ class UserComponent extends React.Component {
                                 <tr key = {user.id}>
                                      <td> {user.id}</td>   
                                      <td> {user.firstName}</td>   
-                                     <td> {user.department}</td>   
+                                     <td> {user.department}</td> 
+                                     <td> {user.email}</td>  
                                 </tr>
                             )
                         }
