@@ -1,4 +1,4 @@
-![Alt text](/relative/path/to/screenshot (55).jpg?raw=true "Optional Title")
+![ScreenShot](https://github.com/priyampp/springreact-project/blob/main/Screenshot%20(55).png)
 
 
 # Getting Started with Create React App
